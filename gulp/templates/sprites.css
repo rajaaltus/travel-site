@@ -1,0 +1,16 @@
+/* Do not modify modules/_sprite.css as it is created by gulp task automatically*/
+
+
+{{#shapes}}
+	{{#first}}
+		.icon {
+	background-image: url('/assets/images/sprites/{{{sprite}}}');
+	}
+	{{/first}}
+	.icon--{{base}} {
+		width: {{width.outer}}px;
+		height: {{height.outer}}px;
+		
+		background-position: {{position.relative.xy}};
+	}
+{{/shapes}}
