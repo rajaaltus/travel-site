@@ -3,6 +3,10 @@
 	@mixin atMedium {
 		padding: 4.5rem 0;
 	}
+
+	&--orange {
+		background-color:rgba($mainOrange,.2);
+	}
 	
 	&--bo-b-padding-until-medium {
 		padding-bottom: 0;

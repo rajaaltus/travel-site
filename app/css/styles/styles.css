@@ -664,6 +664,10 @@ a {
 }
 	}
 
+.page-section--orange {
+		background-color: rgba(213,149,65,.2);
+	}
+
 .page-section--bo-b-padding-until-medium {
 		padding-bottom: 0;
 	}
